@@ -1,0 +1,71 @@
+*,
+*::after,
+*::before {
+margin: 0;
+padding: 0;
+box-sizing: inherit; }
+
+html {
+font-size:   !important; }
+
+body {
+
+box-sizing: border-box; }
+
+ /* NAVBAR */
+
+.custom-navbar {
+    padding: 1.5rem 7rem;
+}
+
+.navbar-brand {
+    font-family: 'Righteous', cursive;
+    font-size: 2rem;
+    
+}
+
+.nav-item {
+    padding: 0 2rem;
+     
+}
+
+.mr-auto {
+    margin: 0 auto !important;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    color: #777 !important;
+}
+
+.custom-sign-in {
+    border: none;
+    background-color: yellow;
+    border-radius: 30px;
+    padding:  0.5rem 1.5rem;
+    color: #777;
+    font-weight: 800 !important;
+    font-family: 'Lato', sans-serif !important;
+
+}
+
+/* HEADER: 888888888888888888 */
+
+header {
+    height: 95vh;
+    background-color: ;
+}
+
+.welcome-section {
+    background-color: ;
+    padding: 3rem 7rem;
+    font-weight: 700 !important;
+}
+
+.heading-primary {
+    font-weight: 500;
+    font-family: 'Nunito Sans', sans-serif;
+    color: black;
+}
