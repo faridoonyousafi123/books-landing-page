@@ -9,13 +9,15 @@ html {
 font-size:   !important; }
 
 body {
-
-box-sizing: border-box; }
+box-sizing: border-box;
+overflow-x: hidden;
+}
 
  /* NAVBAR */
 
 .custom-navbar {
     padding: 1.5rem 7rem;
+    background-color: white !important;
 }
 
 .navbar-brand {
@@ -25,7 +27,7 @@ box-sizing: border-box; }
 }
 
 .nav-item {
-    padding: 0 2rem;
+    padding: 0 2em;
      
 }
 
@@ -38,18 +40,26 @@ box-sizing: border-box; }
     font-weight: 600;
     font-family: 'Lato', sans-serif;
     color: #777 !important;
+    position: relative;
 }
+
+
 
 .custom-sign-in {
     border: none;
-    background-color: yellow;
+    background-color: #e6ae06;
     border-radius: 30px;
     padding:  0.5rem 1.5rem;
-    color: #777;
+    color: white;
     font-weight: 800 !important;
     font-family: 'Lato', sans-serif !important;
 
 }
+
+.custom-sign-in:hover {
+    background-color: #ffca2d !important;
+}
+
 
 /* HEADER: 888888888888888888 */
 
@@ -57,6 +67,13 @@ header {
     height: 95vh;
     background-color: ;
 }
+
+ @media (min-width: 1920px) {
+    header {
+        height: 65vh;
+    }
+}
+
 
 .welcome-section {
     background-color: ;
@@ -68,4 +85,117 @@ header {
     font-weight: 500;
     font-family: 'Nunito Sans', sans-serif;
     color: black;
+}
+
+.indicator {
+    clip-path: polygon(0 46%, 100% 47%, 100% 75%, 75% 75%, 64% 75%, 50% 75%, 0% 75%);
+
+    background-color: #e6ae06;
+    height: 60px;
+    width: 90%;
+    position: absolute;
+    top: -11%;
+    right: -8%;
+    opacity: 0;
+    transition: all 0.2s;
+    
+}
+
+.nav-item:hover .indicator {
+    opacity: 0.3 !important;
+}
+
+
+/* WELCOME Section: 888888888888888888 */
+
+.welcome-section {
+    padding: 100px;
+    color: #777777c4;
+    margin-left: 4em;
+}
+
+.welcome-section h2 {
+    margin-bottom: 40px;
+    color: #585757;
+}
+
+
+
+.welcome-section p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    
+}
+
+.start-buttons {
+    margin-top: 40px;
+}
+
+.custom-buttons {
+    border-radius: 30px;
+    font-size: 14px !important;
+    padding: 12px 40px;
+    font-weight: 500;
+ }
+
+.custom-button-1 {
+    background-color: #e6ae06;
+    border: none;
+}
+
+.custom-button-2 {
+    background-color: transparent;
+    border: 2px solid #ffca2d;
+    color: #ffca2d;  
+    margin-left: 20px;
+}
+
+.custom-button-1:hover, .custom-button-1:focus {
+    background-color:#ffca2d; 
+}
+
+.custom-button-2:hover, .custom-button-2:focus {
+    background-color:#ffca2d; 
+    border: 2px solid #ffca2d;
+}
+
+
+.hero-image {
+    padding: 100px;
+    
+}
+
+/* BEST SELLERS Section: 888888888888888888 */
+
+.best-sellers {
+    padding: 10rem 10rem;
+}
+
+.book-card {
+    background-color: red;
+    padding: 100px 50px;
+    border-radius: 13px;
+    
+}
+
+.book-card-1 {
+    background: #f953c6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #b91d73, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.book-card-2 {
+    background: #00B4DB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.book-card-3 {
+    background: #FDC830;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
