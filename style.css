@@ -169,27 +169,31 @@ header {
 /* BEST SELLERS Section: 888888888888888888 */
 
 .best-sellers {
-    padding: 10rem 10rem;
+    padding: 10rem 4rem;
 }
 
 .book-card {
     background-color: red;
-    padding: 100px 50px;
+    padding: 120px 50px;
     border-radius: 13px;
-    
+    position: relative;
 }
 
 .book-card-1 {
-    background: #f953c6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #b91d73, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #eacda3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    
 
 }
 
 .book-card-2 {
-    background: #00B4DB;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 
 }
 
@@ -198,4 +202,21 @@ background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, F
 background: -webkit-linear-gradient(to left, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+.card-shadow {
+    background-color: #0000000f;
+    position: absolute;
+    padding: 120px 143px;
+    left: 0%;
+    top: 0%;
+    border-top-right-radius: 79%;
+    border-bottom-left-radius: 7%;
+    border-top-left-radius: 6%;
+}
+
+.book-img {
+    height: 150px;
+    box-shadow: 0.125em 0.25em 0.325em rgba(0, 0, 0, 0.42);
+    position:absolute;
+    top:20%;
 }
